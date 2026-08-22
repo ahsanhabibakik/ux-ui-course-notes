@@ -41,16 +41,49 @@ So "I do UX" really means "I do UXD". The distinction sounds small but it matter
 
 A website or app is not just pages connected with links. It is an interface where the user and the product meet and affect each other. That interaction creates an experience, and UX design is the job of making that experience as good as possible.
 
-Key distinction that clicked for me:
+A detail I liked: the instructor points out that even his own course slides are made with alignment and hierarchy in mind. He practices the principles while teaching them, the slides themselves are a design lesson.
 
-- **UI** = what the user sees and touches (layout, colors, typography, buttons).
-- **UX** = how the whole thing feels and works for the user (can they find what they need, do they trust it, do they come back).
+**His advice on learning design: do not start from zero.** See many designs, hundreds of them. See, copy, and understand existing good work first, then you become a pro. Nobody invents design taste from nothing, it is trained by exposure. (Same as how developers learn by reading other people's code before writing their own.)
+
+#### UI vs UX
+
+![UI vs UX](slides/s03-ui-vs-ux.png)
+
+- **UI, User Interface Design** = **Visual Design**. What the user sees and touches: layout, colors, typography, buttons.
+- **UX, User Experience Design** = **Interaction Design**. How the whole thing works and feels: can users find what they need, do they trust it, do they come back.
 
 Good UI with bad UX is a pretty thing nobody can use. UX comes first, UI expresses it.
 
+#### Choosing your path: UI or UX?
+
+The instructor says every learner has to decide where they want to go, UI or UX, and the honest way to choose is to look at yourself first: what kind of work do you love, and what are you naturally good at? Then pick, do not just follow the market.
+
+- **If you lean creative and visual, UI fits you.** The test is aesthetic sense. Many web developers write excellent code but are weak at design: colors, contrast, spacing just do not come to them. The instructor's example: knowing which pants go with a white shirt. That instinct for what pairs well, and being able to express it on screen, is the UI part. It can be trained (by seeing those hundreds of designs), but you should enjoy it.
+- **If you lean problem solving, UX fits you.** The test: when you get an idea, does it solve a real problem for users? UX is spotting the user's need and then executing the idea around it. His examples: I want to open an online shop, make and sell saris, start a cooking business. Executing that means taking user feedback and demand, choosing color combinations and graphics that attract the right users, deciding where to place a discount so users actually buy more. If the placement of one offer increases sales, that was a UX decision. All of it is problem solving for the user.
+
+My own take as a frontend dev: the two are not a wall, they are a spectrum, and the same person moves along it per task. But the entry question is right: energy follows enjoyment. I lean problem-solving first (UX), and I am using courses like the Scrimba UI one to train the visual side deliberately, since that is my weaker muscle.
+
+### A little intro about the instructor (Section 2)
+
+Skipped for now, will watch later and add notes here.
+
 ### UX role (Sections 4 and 23)
 
-UX is not one job. The course breaks it into:
+![UX Role list](slides/s04-ux-roles-list.png)
+
+UX is not one job. The full role list from the Section 4 opening slide:
+
+1. UX Researcher
+2. UX Designer
+3. UX Writer
+4. UX Manager
+5. Usability Specialist
+6. GUI Designer
+7. UI Designer
+
+The slide's phone mockup makes the point visually: one Facebook-style profile screen, and every labeled part (navigation, compose, cover, search, picture) is territory where several of these roles worked together.
+
+The main ones the course goes deep on:
 
 - **UX Researcher**: talks to users, runs interviews and surveys, finds the real problems.
 - **UX Designer**: turns research into flows, wireframes, and structure.
