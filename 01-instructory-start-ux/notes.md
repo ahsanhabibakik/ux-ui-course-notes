@@ -91,11 +91,11 @@ The main ones the course goes deep on:
 - **UX Manager**: owns getting the product to market. Hires however many team members the project needs, collects progress and updates from everyone, and manages the whole flow so the pieces land together. At the end the manager pulls all the reports together into one and reports up to the CEO or senior leadership. Reporting is a real duty with real accountability: if the report is late, the blame lands on the manager, nobody else.
 - **Usability Specialist**: the verification role. Runs A/B testing on everything: how users are taking the product, how they are getting attracted, and the hard question, why would a user use this app at all instead of alternatives. Opens polls and asks users directly. The instructor's example stuck with me: you installed a security camera, fine, but is it actually helping? Is it mounted at the right angle? Shipping the feature is not the goal, the feature working in reality is. Same thinking for marketing surfaces: which type of poster will actually hit the target user, and does it stay consistent with the product. The specialist stays involved through the testing part and the launching part. (Related: this maps to what the industry calls usability evaluation; Nielsen's classic finding is that testing with just 5 users uncovers most usability problems. Source: nngroup.com/articles/why-you-only-need-to-test-with-5-users/)
 - **UI Designer**: works out the final visual layer: which color goes where, which icon to use for what, every concrete visual choice on the screen.
+- **Web Developer**: implements it. As a frontend dev this is me, and the point of the whole course for me is that developers who understand UX build better products without waiting for a designer.
 
 The list does not stop there either. Bigger teams add more roles, communication manager and others. The instructor's advice on how to actually learn all this: you have to feel it and get down into the field. Reading role definitions teaches you the map, doing the work on a real project teaches you the job.
 
 Along the way this team produces a chain of working outputs: research, notes, user feedback, votes and polls, sitemap, wireframe, prototype, and the MVP. Each artifact feeds the next one, and (as noted above) the manager rolls the results up into one report for the CEO or senior. The methods block (Sections 14 to 20) teaches how to actually make most of these.
-- **Web Developer**: implements it. As a frontend dev this is me, and the point of the whole course for me is that developers who understand UX build better products without waiting for a designer.
 
 In small teams (like ours) one person wears several of these hats, so knowing the boundaries helps me know which hat I have on.
 
@@ -129,6 +129,76 @@ The story continues after 2000, from the Nokia-era button phones to today's full
 
 That is the whole lesson of interaction design in one object: **user needs drive the evolution of the product.** Nobody redesigned the phone for beauty, they redesigned it because "I do not know who is calling me" is a need, and the design that answers the need wins. (Related: the Interaction Design Foundation defines interaction design as designing the dialogue between a person and a product, and that dialogue is exactly what improved at each phone generation. Source: interaction-design.org/literature/topics/interaction-design)
 
+#### Part 02, Case Study: iPhone and the differentiation factor
+
+![Case study, iPhone](slides/s05-case-study-iphone.png)
+
+The case study is the iPhone, and the lesson is **differentiation and target audience**.
+
+- The iPhone never placed itself among the Android phones. It did not copy Android's direction, and that separation is exactly why it holds its own audience. If iPhone had just followed Android, it would not have worked, it would be one more phone in the same crowd.
+- Which phone a brand builds depends entirely on the user and the target audience. Some phones are built for gaming, some are camera-focused, some go for balanced overall use. Chinese brands pick their own different targets (usually aggressive specs for price). Every one of these is a valid strategy because each aims at a different user.
+- (My addition as reasoning: this is market segmentation applied to product design. Differentiation only works when it maps to a real audience segment; being different with no audience behind it is just being weird. The iPhone's segment pays for simplicity, ecosystem, and status, so its design decisions, one model line, locked-down software, premium build, all serve that segment.)
+
+Same logic transfers to UI/UX of websites and any product: design so that the **right** users get attracted, not just many users. The instructor's challenge question: what if your product is heavy on functionality but the aesthetics are garbage? Then the users it deserves never come, because the first impression filters them out before they ever touch the functionality. Attraction and capability have to match the same target audience.
+
+His other example: cars. Nobody builds "a car", they build a car for a user. A sports car is designed around one target user (speed, image, two seats are fine), a family car around another (space, safety, cost). The product's whole shape follows from who it is for. Target first, design second.
+
+#### Part 03, Product Design: the ketchup bottle
+
+![Heinz, designing the product vs designing the experience](slides/s05-heinz-product-vs-experience.png)
+
+The Heinz ketchup bottles, the best two-picture summary of this whole course so far.
+
+- **Left, designing the product:** the classic upright glass bottle. It stores sauce, it looks like a bottle "should". But sauce has to be poured onto the plate to eat, and everyone knows the real experience of that bottle: thick sauce stuck at the bottom, shaking, banging the base, waiting.
+- **Right, designing the experience:** the upside-down squeeze bottle. It sits on its cap, so the sauce is always already at the opening, one squeeze and it is on the plate. Heinz learned how people actually use the product and rebuilt the packaging around that moment of use.
+
+From a distance people might think it is made wrong, "they built it upside down", some cannot even tell what it is at first. But it was made this way exactly to make it easy for the user. That is the difference: the product is what it is, the experience is what using it feels like. The "wrong-looking" bottle gives the right experience.
+
+The instructor turns it into an exercise for us: look at your own life and ask which things are badly designed. The door, the chair, the laptop, a box, the cell phone, anything you touch daily. Find the thing where the experience is bad, and think what change would actually help your own experience, then do that. Everyday annoyance is a UX backlog waiting to be read. (Related: this is the founding idea of Don Norman's "The Design of Everyday Things", his famous examples are doors people push when they should pull, "Norman doors". The ketchup bottle is the same lesson in a kitchen. Source: en.wikipedia.org/wiki/The_Design_of_Everyday_Things)
+
+![Mugs, with and without handle](slides/s05-mugs-handle.png)
+
+Same lesson again with the two mugs, and the slide plays it as a joke: the mug without a handle has a grumpy, crying face, the mug with a handle is smiling. Why does a mug need a handle at all? Because the cup holds hot tea or coffee, and without a handle the user's hand burns. Handle = happy user, no handle = suffering user. The faces on the mugs are also a small aesthetics lesson: the design itself interacts with the user emotionally, a product can literally look how it feels to use.
+
+The instructor is deliberately starting with physical products, mugs, bottles, phones, and says he will move step by step into web design. The principle stays identical the whole way: **products are made by thinking about the user's need.** A handle on a mug and a well-placed button on a website are the same decision at different scales.
+
+#### Part 04, User Attraction: physical shop vs online shop
+
+![Physical shop vs online shop](slides/s05-physical-vs-online-shop.png)
+
+This part goes deeper, and here the course crosses from physical products into the digital world. The slide puts a Bangladeshi physical grocery shop next to Chaldal, the online grocery. Same job for the user, buying groceries, two completely different interfaces: shelves, the shopkeeper, and pointing at items on one side; a searchable grid of product cards with prices and an add-to-bag button on the other. The online shop has to recreate with design everything the physical shop does with space and people: showing what exists, telling the price, letting you pick, building trust.
+
+In this part the instructor also talks openly about the course business itself as an attraction example: what to purchase and what not to, what he does himself, free courses versus premium courses, online classes versus physical classes. The honest point behind it: each format attracts a different user for different reasons (price, flexibility, discipline, certificates), so even selling education is a target-audience decision, the same lesson as the phones and cars.
+
+![F-commerce vs E-commerce](slides/s05-fcommerce-vs-ecommerce.png)
+
+Then a very Bangladeshi pair: **physical shop turned F-Commerce vs online shop on E-Commerce**, shown with Chair King selling office chairs through Evaly. On the left, the Facebook-page style promo poster (Friends Deal, 20 percent discount, cash on delivery, bank payment details typed into the post). On the right, the same shop inside the Evaly marketplace: search bar, product grid, ratings, a Follow button, a proper store page.
+
+Why join a marketplace at all? Because the marketplace has done the user research and holds the data. Evaly-type platforms know who buys, what they look at, what converts. Other shops come onto the marketplace exactly for that: the platform attracts the users for them, with promotions, discounts, and the whole shopping UX already built. The small shop rents the marketplace's user experience instead of building its own.
+
+(My addition: this is also a warning example in hindsight. Evaly attracted users with deep discounts brilliantly, and later collapsed in Bangladesh's biggest e-commerce scandal, unable to deliver what it sold. Attraction UX brings users in, but the experience promise still has to be kept, otherwise the same crowd that came fast leaves faster. Source: en.wikipedia.org/wiki/Evaly)
+
+#### Part 05, Users Accustomed
+
+![Live shows and workshops, Zoom and StreamYard](slides/s05-live-workshops.png)
+
+First example: the instructor's own live shows and workshops, run on Zoom and StreamYard. This is "accustomed" in action, users got used to live video as a normal way to learn and attend events, so a teacher now meets students where their habits already are. The tool follows the habit.
+
+![HTML with divs](slides/s05-html-divs.png)
+![HTML5 semantic tags](slides/s05-html5-semantic.png)
+
+Then the best developer-facing example in the course: **HTML vs HTML5.**
+
+- The old way: whoever wrote HTML built everything out of divs, `<div id="header">`, `<div id="nav">`, `<div id="section">`, `<div id="footer">`. It worked, but every page was an anonymous pile of divs and only the ids hinted at meaning.
+- HTML5 turned those habits into real tags: `<header>`, `<nav>`, `<section>`, `<footer>`. The language itself adopted what coders were already accustomed to doing.
+
+The lesson lands on two levels:
+
+1. **Coders are users too.** HTML5's semantic tags were made for the coder's experience. The W3C looked at what developers were already naming their divs and gave them native elements for it. That is developer experience (DX), UX where the user is a programmer, and it proves "know your user" applies to languages and tools, not just apps. (Related: the HTML5 authors literally studied millions of pages to find the most common div id and class names, header, nav, footer among the top, and turned them into elements. Source: whatwg.org / en.wikipedia.org/wiki/HTML5)
+2. **This is done to serve user need and attraction better.** Semantic structure makes pages easier to build right, and a correctly structured page is better for the end user too: screen readers can navigate it, search engines understand it, so the right users find and can use the site. Serving the coder's habit ends up serving the visitor's need.
+
+For me this example ties the whole section together: "users accustomed" is so strong a force that even a language standard bent to match what its users were already doing.
+
 #### The interaction design chain
 
 The course frames interaction design as a chain:
@@ -141,11 +211,108 @@ The course frames interaction design as a chain:
 
 My takeaway: attraction gets users in the door, but "accustomed" is what retention actually is. Design for the habit, not just the landing.
 
-### Human centered design and the DND concept (Section 6)
+Closing thought for the section: there are plenty of tools for wireframing and UX work, and a lot of people jump straight into hyping Figma or Adobe XD. Tools come later. The foundation has to be strong first, the thinking in this section is the foundation, the tool is just where you express it. Next section: Human Centered Design.
 
-Human centered design (HCD) means the human is the starting point of every decision, not the technology and not the business.
+### Human centered design, the DND concept (Section 6)
 
-The instructor teaches it through his DND concept with a worked example (an HCD walkthrough video). The pattern I took away: observe real people, find what frustrates them in their real context, design for that context, then test with the same people. Design decisions get justified by "the user needs it", never by "I like it".
+![Section title, Don Norman Door](slides/s06-title-don-norman-door.png)
+
+Human centered design (HCD) means the human is the starting point of every decision, not the technology and not the business. And DND stands for **Don Norman Door**, the section is built around one man and one door.
+
+#### Part 01: who Don Norman is, and his door
+
+![Don Norman and The Design of Everyday Things](slides/s06-don-norman-book.png)
+
+**Don Norman** is an American cognitive scientist and design researcher, the person who literally coined the term "user experience" when he worked at Apple in the 1990s, and co-founder of the Nielsen Norman Group, the consultancy whose articles I keep citing in these notes. His ideas did not stay in one country: designers and companies all over the world took his thinking and built their design practices on it, which is why a Bangladeshi UX course in 2020s teaches concepts an American professor wrote decades ago. (Source: en.wikipedia.org/wiki/Don_Norman, jnd.org)
+
+His book **The Design of Everyday Things** is the classic of this field. The core of what he says: when people fail to use an object, the fault is almost never the person, it is the design. Everyday objects must show you how to use them by their shape alone, a well-designed thing needs no instructions. He calls these visual hints affordances: the form of the object tells your hands what to do.
+
+#### The door examples
+
+![Hospital stretcher rush](slides/s06-icu-stretcher.png)
+
+**The ICU door.** Picture a stretcher being rushed to the ICU. What kind of door must be there? There may be NO free person to open the door, everyone's hands are on the stretcher, and stopping costs a life. So the door has to open by being pushed through, or open automatically. This is the extreme case that proves the principle: the design must work in the user's real situation, not in an ideal one where someone is always available to hold the door.
+
+![Doors with pull handles](slides/s06-doors-handles.png)
+![Push vs pull, real life UX](slides/s06-push-pull-diagram.png)
+
+**The everyday door confusion.** You walk up to a door, do you push or pull? Often you cannot tell by looking. The rules our hands already know:
+
+- Nothing to grab, a flat plate, you push. There is no other option, the design forces the correct action.
+- A handle sticking out says grab me, so people pull.
+
+We push and pull doors all day, and sometimes Push or Pull is written on the door. But problems still happen, and that is the famous point: **if a door needs a label, the design has already failed.** A handle that invites pulling on a door that must be pushed will beat the sticker every time, because hands read shapes faster than eyes read words. This exact confusing door is what the world now calls a "Norman door".
+
+![Hospital doors with push plates](slides/s06-hospital-push-doors.png)
+
+The hospital doors in the last slide do it right: flat push plates, no handles, an EXIT sign above. Nothing to grab means nobody ever pulls, and a stretcher can crash straight through.
+
+**Getting the direction right matters too.** From inside a room heading out, the door should push open in the direction you are moving (this is also why emergency exits open outward, a panicking crowd pushes, it never pulls). So for every door: decide which side pushes and which side pulls from the user's direction of movement, give each side the hardware that matches (plate for push, handle for pull), and only then decide what, if anything, needs to be written on it. Do all of it, every time.
+
+#### What this means for our work
+
+When we build a website or a service for someone, we have to keep exactly these things in mind. How to keep them in mind, in practice:
+
+- Make the design show the action. A button must look pressable, a link must look clickable, the same way a flat plate says push. If users need a tooltip to know something is clickable, that is a Norman door.
+- Match the design to the user's real situation, the ICU test: assume the user is busy, one-handed, distracted, on a slow phone, and design so the main action still works.
+- Labels are the last resort, not the fix. First get the shape and placement right, then add words only where they genuinely help.
+- And test by watching: if people hesitate at your interface the way they hesitate at a bad door, the design failed, not the user.
+
+#### The automatic door, and where NOT to use it
+
+![Automatic sliding doors](slides/s06-auto-door.png)
+
+Another human centered design example: the **automatic door**. Nobody pushes, nobody pulls, the door reads your approach and opens itself, the ultimate answer to the push-pull confusion.
+
+But here is the deeper lesson: **we cannot put this door everywhere.** A bank cannot use a wide-open automatic entrance, security comes first there, the door is supposed to slow people down and control who enters. A shopping mall, a supermarket, a hospital, an airport, those can and should use it, because their goal is the opposite: let the maximum number of people flow in with zero friction.
+
+So the same design is right in one place and wrong in another, and the deciding factor is the context's real priority: **flow vs control.**
+
+The website version of the same decision: think about what should be highly accessible and what should sit behind security, and when.
+
+- The product pages, prices, search, blog: automatic door. Zero friction, no login, no popup wall, let everyone flow in.
+- The checkout, the account settings, the admin panel: bank door. Deliberate friction, password, OTP, confirmation steps, because here control matters more than speed.
+- And timing matters: a cart can be open to a guest (accessible now), but payment requires verification (secure when it counts). Asking for login too early is putting a bank door on a shopping mall, security in the wrong place is just lost users.
+
+#### Innovation never stops
+
+The instructor's next point: the world will keep producing new things like this, innovation after innovation, each one born from a human pain. His example: office chairs hurt people's backs during long sitting, so the **gaming chair** appeared, high back, neck pillow, lumbar support, built around the body of someone who sits for 8 or more hours. More of the same pattern:
+
+- The computer mouse hurt wrists, so the vertical ergonomic mouse appeared.
+- Typing on phone keyboards was slow, so swipe typing and voice input appeared.
+- Carrying cash was risky and slow, so bKash and mobile wallets appeared in Bangladesh.
+- Standing in queues wasted hours, so token systems and appointment apps appeared.
+
+The formula is always: find where the human hurts, redesign around the human. There will always be a next one, which is why this field never runs out of work.
+
+#### Watch: "It's not you. Bad doors are everywhere." (Vox)
+
+The instructor closes with this video, and it is the best 5 minutes on this whole topic. Watch it when reading these notes:
+
+▶️ **[It's not you. Bad doors are everywhere. — Vox and 99% Invisible, feat. Don Norman](https://www.youtube.com/watch?v=yY96hTb8WgI)** (Joe Posner, 2016, ~5 min)
+
+<details>
+<summary>📋 <b>Click to expand: what the video teaches (my summary)</b></summary>
+
+> 🚪 **The setup.** The video starts with people failing at a simple office door, pushing when they should pull, over and over. Everyone's instinct is "I'm so stupid". The video's whole point: **it is not you, it is the door.**
+>
+> 📖 **Where the idea came from.** Don Norman got so frustrated by badly designed doors, switches, and taps that he wrote "The Design of Everyday Things". Confusing doors are now literally called **Norman doors** after him.
+>
+> 🔑 **Two design principles he gives:**
+> 1. **Discoverability**: just by looking, you should be able to discover what actions are possible. A door must announce push or pull by its shape.
+> 2. **Feedback**: after you act, the thing should show what happened. You should never wonder "did that work?"
+>
+> ✋ **Signifiers beat signs.** A vertical grab-bar signals PULL. If that bar is mounted on a push door, people will pull forever, no matter what the sticker says. A flat plate can only be pushed, so nobody gets it wrong. The hardware is the instruction.
+>
+> 🎨 **Why bad doors exist.** Designers chase beauty, sleek glass doors with identical elegant handles on both sides, and beauty wins over usability. Looks pretty in photos, fails at its one job.
+>
+> 🔁 **The fix is human centered design:** observe real people using the thing, prototype, test, and iterate until the confusion disappears, design for how humans actually behave, not how we wish they behaved.
+>
+> 👁️ **The curse.** Once you learn to see Norman doors, you see them everywhere, and that noticing is the first skill of a UX designer.
+
+</details>
+
+My connection back to our work: every one of those principles maps one-to-one to interfaces. Discoverability = a button looks pressable. Feedback = loading states and confirmations. Signifiers over signs = shape and placement over tooltip text. The door is just the cheapest place to learn it.
 
 ### Case study: Instructory itself (Section 7)
 
