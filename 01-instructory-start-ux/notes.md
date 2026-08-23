@@ -85,15 +85,51 @@ The slide's phone mockup makes the point visually: one Facebook-style profile sc
 
 The main ones the course goes deep on:
 
-- **UX Researcher**: talks to users, runs interviews and surveys, finds the real problems.
-- **UX Designer**: turns research into flows, wireframes, and structure.
-- **UX Writer**: the words in the interface. Microcopy matters more than I expected, button labels and error messages are part of the experience.
-- **UX Manager**: coordinates the above, owns the process.
+- **UX Researcher**: the understanding role. Their job is to research and understand everything before anyone designs: what will actually be sellable in the market, and the full requirements gathered from all sides (users, client, business, competitors). Talks to users, runs interviews and surveys, finds the real problems. One part I found important: the researcher also has to tell the client what is right. Clients do not understand everything about their own users or the market, they know their business but not UX. So the researcher is not an order-taker, they push back with evidence when the client's ask would hurt the product. (This is consulting posture: the research gives you the standing to say "the data shows your users need X, not Y".)
+- **UX Designer**: the researcher hands over their findings, and the UX designer turns them into wireframes. The core thinking work: what functionality does the app actually need to run, and what goes where on each screen. Both are decided deliberately, thought through against the research, not by feel. The wireframe also sets sizes: how big each element is and where it sits, for everything on the screen. Important line from the instructor: do not directly copy-paste what others did. Studying many designs (Section 3 advice) is for understanding patterns, but your structure has to come from your users' needs, because a layout that works for another product's users may be wrong for yours. Reference, understand, then design your own. (Related: Nielsen Norman Group defines a wireframe as a low-fidelity skeleton of a page that shows structure and content placement before any visual design, exactly this "what goes where" stage. Source: nngroup.com/articles/wireflows/)
+- **UX Writer**: the writing side. The words in the interface, and also content like blogs that attract users to the product in the first place. Microcopy matters more than I expected, button labels and error messages are part of the experience.
+- **UX Manager**: owns getting the product to market. Hires however many team members the project needs, collects progress and updates from everyone, and manages the whole flow so the pieces land together. At the end the manager pulls all the reports together into one and reports up to the CEO or senior leadership. Reporting is a real duty with real accountability: if the report is late, the blame lands on the manager, nobody else.
+- **Usability Specialist**: the verification role. Runs A/B testing on everything: how users are taking the product, how they are getting attracted, and the hard question, why would a user use this app at all instead of alternatives. Opens polls and asks users directly. The instructor's example stuck with me: you installed a security camera, fine, but is it actually helping? Is it mounted at the right angle? Shipping the feature is not the goal, the feature working in reality is. Same thinking for marketing surfaces: which type of poster will actually hit the target user, and does it stay consistent with the product. The specialist stays involved through the testing part and the launching part. (Related: this maps to what the industry calls usability evaluation; Nielsen's classic finding is that testing with just 5 users uncovers most usability problems. Source: nngroup.com/articles/why-you-only-need-to-test-with-5-users/)
+- **UI Designer**: works out the final visual layer: which color goes where, which icon to use for what, every concrete visual choice on the screen.
+
+The list does not stop there either. Bigger teams add more roles, communication manager and others. The instructor's advice on how to actually learn all this: you have to feel it and get down into the field. Reading role definitions teaches you the map, doing the work on a real project teaches you the job.
+
+Along the way this team produces a chain of working outputs: research, notes, user feedback, votes and polls, sitemap, wireframe, prototype, and the MVP. Each artifact feeds the next one, and (as noted above) the manager rolls the results up into one report for the CEO or senior. The methods block (Sections 14 to 20) teaches how to actually make most of these.
 - **Web Developer**: implements it. As a frontend dev this is me, and the point of the whole course for me is that developers who understand UX build better products without waiting for a designer.
 
 In small teams (like ours) one person wears several of these hats, so knowing the boundaries helps me know which hat I have on.
 
 ### How interaction design works (Section 5)
+
+Before starting the section, the instructor's study advice: watch regularly and revise, and be clear about what you are going to learn from each part. (Which is also exactly what these notes are for.)
+
+#### Part 01, User Need: the telephone story
+
+![Interaction design, phone evolution](slides/s05-phone-evolution.png)
+
+He teaches interaction design through the evolution of the telephone, 1980s dial phone to cordless to the 2000s desk phone with a screen. What the old dial phone was like to live with:
+
+- You dial a number but you cannot see who you are calling, no confirmation on any screen.
+- Someone calls you and you have no idea who it is, caller ID did not exist.
+- No volume control, you could not lower the sound.
+- No SIM, the line was fixed to the house, your number was not yours to carry.
+
+And the alternative for reaching someone far away was writing letters. Funny detail from the lecture: plenty of people running love affairs through letters got caught, because a letter is a physical object anyone in the house can find. Even privacy was a missing feature.
+
+Then each generation of phone fixed pain points of the previous one: a screen so you can see the number, caller ID so you know who is calling, volume control, SIM cards so the number belongs to the person, not the wall. Users kept adopting the modern tech because every step removed a real daily friction.
+
+![Interaction design, after 2000 till today](slides/s05-phone-after-2000.png)
+
+The story continues after 2000, from the Nokia-era button phones to today's full-screen smartphones. Points from this part:
+
+- **UI is not only web or graphics.** Every kind of product has a user interface, and interaction design covers innovation in all of them. A phone's buttons, a camera, a door handle, all UI.
+- **Buttons to touchscreen.** The whole computer was brought into the mobile. It became user friendly and it is always in your hand, which is why everyone uses one now. Availability itself is a UX feature: the best computer is the one within reach.
+- **Why Nokia failed:** they owned the button-phone era and stayed loyal to it while the market moved to touch. My reasoning on top of the lecture: users' needs had moved (bigger screens for apps, web, video, typing), and Nokia kept optimizing yesterday's interaction model, plus their Symbian software could not keep up with the new app ecosystems. The company that ignores the shift in user interaction loses, no matter how big it is. (Related: Nokia held around 40 percent of the global handset market in 2007-2008, the year the iPhone launched, and its phone business was sold to Microsoft by 2013. Ignoring an interaction-model shift for about five years was enough. Source: en.wikipedia.org/wiki/Nokia)
+- **The selfie example.** People learned to take selfies because the interaction changed. Before, one person owned a camera and someone else took your photo, and some people simply got left out of pictures. Now everyone takes their own photo, and you even see ordinary people with photos beside ministers, actors, actresses, because the front camera plus the touchscreen made self-photography a one-hand, one-tap act. A new interaction created a new behavior that did not exist before.
+
+That is the whole lesson of interaction design in one object: **user needs drive the evolution of the product.** Nobody redesigned the phone for beauty, they redesigned it because "I do not know who is calling me" is a need, and the design that answers the need wins. (Related: the Interaction Design Foundation defines interaction design as designing the dialogue between a person and a product, and that dialogue is exactly what improved at each phone generation. Source: interaction-design.org/literature/topics/interaction-design)
+
+#### The interaction design chain
 
 The course frames interaction design as a chain:
 
