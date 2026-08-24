@@ -657,7 +657,45 @@ M-Brane again, but now showing three of its actual pages stacked together (the h
 
 (My addition, sourced: this matches Nielsen's own "Consistency and Standards" usability heuristic directly, and it distinguishes two kinds worth keeping separate. Internal consistency is what M-Brane demonstrates, the same patterns repeated within one product. External consistency is following the wider conventions users already know from other sites entirely, which is the same territory as the Familiarity principle, Section 10's #7. A design can nail internal consistency, like M-Brane, while still needing to check itself against external, industry-wide conventions too. Source: [NN/g, "Usability Heuristic 4: Consistency and Standards"](https://www.nngroup.com/videos/usability-heuristic-consistency-standards/))
 
-### Who can learn UI/UX, prerequisites, next courses (Sections 11 to 13)
+### Coordination and Consistency (Section 10, Part 06, the official slide)
+
+![Coordination & Consistency](slides/s10-coordination-consistency.png)
+
+The slide's own points, in full: similar products and services are most preferred by users, if they find a product or service that they have used before, they will easily accept it. If your product or service is familiar to a user, their experience will be better and they can learn your application more easily.
+
+The M-Brane example earlier in these notes already showed **internal** consistency, one product staying consistent with itself across its own pages. These next three examples show the other half, **external** consistency, consistency across an entire category of apps made by completely different companies.
+
+**Instagram profile: the pattern every social app repeats.**
+
+![Instagram profile example](slides/s10-instagram-profile-example.png)
+
+The instructor's own profile: username at top, an Edit Profile button, then post count, follower count, following count in a row, then the Posts / IGTV / Saved / Tagged tab row, then a grid of post thumbnails below. None of this is unique to Instagram, Facebook, Twitter/X, LinkedIn, TikTok all show a profile photo, a follower/following count, and a content grid or list in almost the same relative position. Because this pattern repeats across the entire category, a user who has never opened this specific app before still instantly knows what "1,058 followers" means and what tapping a thumbnail will do. That is the slide's first bullet in action: a familiar product gets accepted easily, because the user is not really learning a new interface, they are recognizing one they already know from somewhere else.
+
+**Pathao and Uber: same underlying concept, same structure.**
+
+![Pathao app](slides/s10-pathao-app.png)
+![Uber and food delivery apps](slides/s10-uber-fooddelivery.png)
+
+Exactly your point: Pathao and Uber are the same core concept, on-demand transport, and the interfaces converge on the same structure almost element for element:
+
+- **A category picker up front**: Pathao shows Bike / Car / Food / Parcel as icon tiles; Uber shows Economy / Premium as similar side-by-side options. Either way, the user's very first decision is presented the same way, a row of clear, icon-led choices.
+- **Saved locations for speed**: Pathao offers "Home" and "Work" as one-tap destinations; Uber shows "Home" the same way at the bottom of its screen. Both apps learned that most trips are repeat trips, so they turn the most common destinations into a single tap instead of typing every time.
+- **A live map with the route drawn out**, showing nearby vehicles as icons on the map itself (Pathao's bike/car icons near the pickup pin, Uber's car icons along the drawn route), so the user sees availability and distance before committing.
+- **Vehicle or ride options shown with their price, side by side**: Pathao's Bike/Car Lite/Car Plus cards each show a price (with the discount struck through, showing the user they are saving money right at the decision point); Uber's Economy/Pool row does the same, price and pickup time together.
+- **One unmistakable primary action button** at the bottom: Pathao's "Send Pickup Request", Uber's "Request Pool", both full-width, both the single boldest element on the screen, both the obvious next step with nothing else competing for that role (Hierarchy again, Part 04, showing up naturally wherever a product is well designed).
+- **Reviews and ratings, and food ordering, following the identical pattern one category over**: the food-delivery screens shown alongside these (231 Restaurants, sorted by Relevance, each restaurant card showing a star rating, delivery time, and price for two) use the exact same "list of options, each with rating plus time plus price, tap to go deeper" structure as picking a ride. The checkout screen (item list with quantity steppers, Item Total, Offers Discount, GST, Coupon Discount, Delivery Charges, To Pay, then a single Proceed to Pay button) mirrors the same "review everything, one clear total, one clear final button" pattern used by essentially every checkout flow, ride-hailing, food delivery, or online shop alike.
+
+**This is the slide's second bullet made completely concrete: because a user who has used any ride-hailing app already has a working mental model for how ride-hailing apps behave, Pathao does not need to teach them anything new, the app is instantly familiar and their experience is better from the first screen.** A brand new interaction pattern here would actually be a UX cost, not a UX win, users would have to relearn something they already knew how to do. (My addition, sourced: this is Jakob's Law by name, "users spend most of their time on other sites, so they prefer your site to work the same way as the sites they already know", which the course covers formally later in Section 21's UX Laws, and it is also the "external consistency" half of Nielsen's Consistency and Standards heuristic already cited above. Source: [NN/g, "Usability Heuristic 4: Consistency and Standards"](https://www.nngroup.com/videos/usability-heuristic-consistency-standards/))
+
+### Familiarity (Section 10, Part 07)
+
+![Familiarity, three icon styles per data type](slides/s10-familiarity-icons.png)
+
+The slide lays out the exact same six data types, Name, Phone, Location, Place, Website, Mail, each drawn three different ways: a simple outline/line icon, a filled/solid (bold) icon, and a third, more detailed style closer to a polished stock-icon-pack look. Three completely different visual treatments per row, and every single one is still instantly readable, because what makes an icon work is not its exact style, it is whether it matches a symbol the user's brain already has stored: an envelope always means mail, a pin always means location, a house always means an address or home, a phone handset always means a phone number, a globe always means a website.
+
+**Your point is exactly right: you can tell what something is just by looking at the icon, and that is the entire definition of Familiarity as a UX principle.** A designer has real freedom to choose outline vs filled vs a more decorative treatment to match a brand's visual style (this connects to Part 05's Clarity and Simplicity, a simpler outline icon fits a minimal design, a bolder filled icon fits a punchier brand), but that stylistic freedom only works because the underlying shape stays a symbol the user already recognizes. Change the actual shape, not just the style, invent a brand new abstract glyph for "phone" that nobody has seen before, and the user has to stop and think, which is friction the design did not need to create.
+
+**This ties directly back to two earlier notes in this file:** Section 8's UX Error notes, where tooltips became necessary as interfaces went from text labels to icons, a familiar icon needs no tooltip at all, an unfamiliar one always will. And Section 4's UI Designer role, "which icon to use for what" is not a decorative choice, it is a familiarity decision, pick the icon shape the user's brain has already filed under that meaning, then style it however the brand needs.
 
 Anyone can start, no design background required. The course positions itself as course 1 of the instructor's track (next is the UI Design course, which is my course 2). Bonus lessons get added over time.
 
