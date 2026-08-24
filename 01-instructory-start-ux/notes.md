@@ -697,6 +697,28 @@ The slide lays out the exact same six data types, Name, Phone, Location, Place, 
 
 **This ties directly back to two earlier notes in this file:** Section 8's UX Error notes, where tooltips became necessary as interfaces went from text labels to icons, a familiar icon needs no tooltip at all, an unfamiliar one always will. And Section 4's UI Designer role, "which icon to use for what" is not a decorative choice, it is a familiarity decision, pick the icon shape the user's brain has already filed under that meaning, then style it however the brand needs.
 
+**A real footer example, and your question about whether the label is even needed once the icon already tells you.**
+
+![Familiarity, Painting Services footer social links](slides/s10-familiarity-social-links-footer.png)
+
+A "Painting Services" site footer, laid out in three columns: About Us with a short intro paragraph, Useful Links (Home, About, Our Services, Our Inspirations, Specialities, Blog, Customer Review, Contact Us, each with a small checkmark icon in front of it), and Social Links, which is the relevant part here:
+
+- Facebook icon, then "/paintingsevice"
+- Instagram icon, then "instoram.com/paintingsevice" (the source design itself has a typo here, "instoram" instead of "instagram", worth noting since it is a real example of why the icon matters even more when the text next to it is wrong)
+- Twitter icon, then "twitter.com/paintingsevice"
+- an envelope icon, then the email address
+- a location pin icon, then the physical address
+- a phone icon, then the phone number
+
+**Your question, restated: since the icon alone already tells you it is Instagram, why write the word or URL at all?** The answer is that the icon and the text are doing two different jobs, not the same job twice, so it is not true redundancy:
+
+- The **icon's job** is pure Familiarity, instant recognition of *which platform*. A user's eye reads the blue bird-style or camera-style shape faster than it reads any word, that is the whole point of Familiarity as covered above.
+- The **text's job** is not "tell me this is Instagram" again, it is "tell me the *specific handle or URL* for this particular business". The icon cannot carry that information, a camera icon looks the same whether it links to `paintingsevice` or any other account. So the text here is closer to the Section 10 Part 02 principle, information needs to be useful, credible, and authentic, the actual handle is real, checkable information, not decoration repeating the icon.
+
+So the correct reading is: **icon = recognition (which app), text = specificity (which exact account/address/number).** Removing the icon and keeping only the text would slow recognition down, removing the text and keeping only the icon would lose the one thing a user might actually want to copy, verify, or click through to a specific destination. Together they are not wasteful, they are Familiarity and Credibility each doing the job the other cannot.
+
+One small thing worth flagging while looking at this footer closely, since it cuts the other way on the same principle: the checkmark icon placed in front of every item in the "Useful Links" list is actually a slightly weaker Familiarity choice. A checkmark, everywhere else on the web, usually signals "done", "selected", or "verified", not "click to navigate here". A small arrow, chevron, or simple bullet would have matched the user's existing mental model for a link list more closely. It is a minor example, but a useful one, showing that the same Familiarity principle can be applied well in one part of a design (the social icons) and slightly off in another part of the very same design (the checkmark links), a reminder that this principle has to be checked element by element, not assumed once for the whole page.
+
 Anyone can start, no design background required. The course positions itself as course 1 of the instructor's track (next is the UI Design course, which is my course 2). Bonus lessons get added over time.
 
 ---
