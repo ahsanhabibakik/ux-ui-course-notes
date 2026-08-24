@@ -719,6 +719,50 @@ So the correct reading is: **icon = recognition (which app), text = specificity 
 
 One small thing worth flagging while looking at this footer closely, since it cuts the other way on the same principle: the checkmark icon placed in front of every item in the "Useful Links" list is actually a slightly weaker Familiarity choice. A checkmark, everywhere else on the web, usually signals "done", "selected", or "verified", not "click to navigate here". A small arrow, chevron, or simple bullet would have matched the user's existing mental model for a link list more closely. It is a minor example, but a useful one, showing that the same Familiarity principle can be applied well in one part of a design (the social icons) and slightly off in another part of the very same design (the checkmark links), a reminder that this principle has to be checked element by element, not assumed once for the whole page.
 
+### Confirmation (Section 10, Part 08, the final principle)
+
+![Confirmation, order confirmed](slides/s10-confirmation-title.png)
+
+**What confirmation means, and what the next step should be.** The slide's example: "Your Order is Confirmed! Thanks For Your Order", a checkmark icon, confetti, and a single "Done" button. Three things are happening in this one small screen, all doing real UX work:
+
+- **The checkmark icon** gives instant, wordless confirmation that the action succeeded, before the user even reads a word (Familiarity again, a circled checkmark universally means "this worked").
+- **The confetti and friendly illustration** turn a purely functional moment (an order was recorded in a database) into an emotionally positive one, this is the same idea as Section 5's mug-with-a-face example, design can make a functional outcome feel good, not just report it.
+- **The next step is made completely obvious and singular**: one button, "Done". Confirmation is not just telling the user "it worked", it is also telling them exactly what to do now that it worked. A confirmation screen that succeeds but leaves the user unsure whether to close the tab, wait, or click something has not actually finished its job. The user should never have to guess "am I finished now?"
+
+**Color as instant status, before the user reads a single word.**
+
+![Confirmation, color-coded status banners](slides/s10-confirmation-color-banners.png)
+
+Four banners, same layout, different color and icon each time: Info (blue, an "i" icon, "User pending action"), Warning (yellow, a triangle, "User has to be admin"), Error (red, a crossed-circle icon, "Internal Server Error"), Success (green, a checkmark, "Updated members status"). Your point is exactly the mechanism at work here: **the moment something happens, error or success, the visual changes immediately, red or green, and that color alone tells the user the outcome before they have read a single word of the message.** Color here is doing the same job the checkmark icon did on the order-confirmation screen, communicating status faster than text can be read. This is why a consistent color language (red always means something went wrong, green always means it worked, yellow always means caution, blue always means neutral information) has to be used the same way everywhere in a product, this is Coordination and Consistency (Part 06) applied specifically to status colors, if red sometimes means error and sometimes means "featured item", the user's fast, color-based recognition breaks.
+
+**The same principle with personality, success and error side by side.**
+
+![Confirmation, success vs error fox illustration](slides/s10-confirmation-fox-success-error.png)
+
+Two matching dialogs, same fox-and-trees illustration style, same layout, but everything about them signals opposite outcomes: the Success card has a calm, content fox, a green-toned "SUCCESS" heading, the message "You have successfully sent a message!", and a friendly, low-urgency button, "Have a Good Day". The Error card has the fox wearing what reads as a slightly worried or apologetic expression, an orange-toned "ERROR" heading, "Oops, error occurred! Your message was not sent!", and a clear recovery action, "Try Again". Notice both cards confirm something, success confirms the action worked, error confirms the action failed, confirmation is not only for good news, telling a user clearly and immediately that something did *not* work is just as much a confirmation responsibility as telling them it did. And each card gives the correct next step for its outcome, "Have a Good Day" needs no further action, "Try Again" gives the user a direct way to recover, which loops back to Section 8's UX Error notes, a clear, specific error message paired with an obvious next action.
+
+**Confirmation done badly, for contrast.**
+
+![Confirmation, old Windows error dialog](slides/s10-confirmation-old-windows-error.png)
+
+Your point about older interfaces is visible directly in this "Windows - No Disk" error box: "Exception Processing Message 0xc0000013 Parameters 0x000007FEFDF97240..." followed by three buttons, Cancel, Try Again, Continue, and **all three buttons look completely identical**, same gray, same size, same weight, nothing distinguishes the safe option from the risky one. This is exactly what you flagged, older software commonly gave every button the same color regardless of what it did, leaving the user to read dense, jargon-heavy technical text just to figure out which button was safe to press. Compare this directly against the YouTube dialog below, modern interfaces learned to carry meaning in color and typography, not just in text a user has to stop and parse.
+
+**Confirmation before a destructive, irreversible action, done well.**
+
+![Confirmation, delete video dialog](slides/s10-confirmation-delete-video.png)
+
+YouTube's "Delete video" dialog: "Permanently delete your video? You can't undo this." with a gray, neutral "Cancel" button and a solid blue "Delete" button. This is the textbook version of the Confirmation principle for anything destructive:
+
+- **The message is specific, not vague.** It says exactly what will be deleted ("your video"), not a generic "Are you sure?" that could apply to anything.
+- **The consequence is stated in plain words, "You can't undo this."** The user is told the actual stakes before committing, not left to assume the action is reversible.
+- **The two buttons are visually different in weight and color**, so a user scanning quickly still lands on the safer default, Cancel, rather than being equally drawn to both. (Checked against real UX guidance rather than assumption: the common recommendation is to make the destructive action visually distinct, most often colored to stand out as a warning, red is the most typical choice specifically because it reads as an alert faster than any other color, while Cancel stays neutral and is often the default-focused option so an accidental key press does not trigger the destructive action. Source: [UX Movement, "How to Design Destructive Actions That Prevent Data Loss"](https://uxmovement.com/buttons/how-to-design-destructive-actions-that-prevent-data-loss/); [Smashing Magazine, "How To Manage Dangerous Actions In User Interfaces"](https://www.smashingmagazine.com/2024/09/how-manage-dangerous-actions-user-interfaces/))
+
+**Tying all five examples together, and closing out Section 10's eight principles:** Confirmation is really two jobs at once, tell the user clearly what just happened or is about to happen (success, error, or an irreversible risk), and tell them clearly what to do next (Done, Try Again, Cancel, or Delete). Every example above does both halves. The Windows dialog is the cautionary case, it eventually tells you *something* went wrong, technically, but it never clearly tells you which button is safe, so it fails the second half of Confirmation even while technically attempting the first half. Good confirmation removes doubt in both directions, "did it work?" and "what do I do now?", and it never leaves a user staring at identical buttons trying to guess which one is safe to press.
+
+**This closes Section 10.** All eight principles, Know Your User, Useful/Credible/Authentic, Easy to Use/Find/Accessible, Hierarchy, Clarity and Simplicity, Coordination and Consistency, Familiarity, and Confirmation, have now been covered in full with real slide examples and real product examples for each.
+
+### Who can learn UI/UX, prerequisites, next courses (Sections 11 to 13)
+
 Anyone can start, no design background required. The course positions itself as course 1 of the instructor's track (next is the UI Design course, which is my course 2). Bonus lessons get added over time.
 
 ---
