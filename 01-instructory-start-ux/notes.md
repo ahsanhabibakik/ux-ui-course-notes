@@ -763,7 +763,25 @@ YouTube's "Delete video" dialog: "Permanently delete your video? You can't undo 
 
 ### Who can learn UI/UX, prerequisites, next courses (Sections 11 to 13)
 
-Anyone can start, no design background required. The course positions itself as course 1 of the instructor's track (next is the UI Design course, which is my course 2). Bonus lessons get added over time.
+![Section title, Who Can Learn UI/UX?](slides/s11-title-who-can-learn.png)
+
+![Anyone can learn UX Design](slides/s11-anyone-can-learn.png)
+
+Anyone can start, no design background required. The slide shows exactly that, ordinary people at laptops, one with a "???" thought bubble, one mid-discussion with a colleague, and the caption "Anyone can learn UX Design". No design degree, no prior portfolio, no special starting point required.
+
+**But "anyone can start" does not mean it happens automatically, and the instructor's real answer to "how" is a daily practice, not a class you sit through once.** Breaking down exactly what he says that practice looks like:
+
+- **Browse websites and apps continuously, on purpose, not just as a user.** Every time you open a site, actively look for problems: where is something confusing, where does something take too many steps, where does the layout not make sense. This turns ordinary browsing into training data for your own UX eye.
+- **Write it down, in an actual notebook.** Not just noticing a problem and forgetting it a minute later, physically writing "this design would have been better if it did X instead" turns a vague feeling into a specific, reviewable observation. Over time that notebook becomes a personal library of real problems and real proposed fixes, written by you, about real products.
+- **Study products and services deeply, "ghataghati kora" (really dig into it), not a surface glance.** Understand where everything is on a page and why, what the structure is trying to do, so you build the habit of reading a design's intent, not just its surface.
+- **Build real familiarity with the small, recurring UX vocabulary**, icons and their meanings, common patterns, the kind of thing covered in Familiarity (Part 07) above, until reading an interface becomes automatic rather than effortful.
+- **Understand why UX demand is high in the first place, and where.** Knowing the market context (this connects straight back to Section 4's UX Researcher role and Section 7's target-audience work) is part of the skill, not separate from it.
+- **Actively look for real problems in real organizations, a specific company, a specific university's website, and know them well enough to actually go tell that organization what is wrong.** This is the step that turns a hobby into a practice, or eventually a business, not just privately noticing a bad design, but being able to name the exact problem to the people who own it, credibly enough that they would want to fix it.
+- **And close the loop: once a problem is found, work out and write down the actual solution, not just the complaint.** "This should be different" is only half the exercise, the other half is "here is specifically what it should be instead, and why."
+
+(My addition, connecting this to everything already in these notes: this daily-practice description is really just Section 3's "see hundreds of designs" advice and Section 10's eight principles turned into a habit loop, look, notice, question against a principle you already know (hierarchy, familiarity, clarity), write it down, then propose the fix. Anyone genuinely can start this today with zero tools, a notebook and the willingness to look at ordinary websites critically instead of passively. The Adobe XD skills later in this course are how you eventually execute the fix, this section is about training the eye that notices what needs fixing in the first place.)
+
+The course positions itself as course 1 of the instructor's track (next is the UI Design course, which is my course 2). Bonus lessons get added over time.
 
 ---
 
