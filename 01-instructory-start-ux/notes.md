@@ -459,7 +459,38 @@ This part continues straight from Part 02's Facebook example, and walks through 
 
 **Closing thread for this whole myth (Section 9), and how it hands off to the next lesson:** the instructor says we will see more real-life examples of this UX myth, and more importantly, look at how much a redesign attracts users and how they come to accept it, in the next lesson. So the open question carried forward is exactly the one from Part 02: research and thinking are not finished once, they also have to include how you roll out change so people adopt it instead of resisting it, which is Part 04, coming next.
 
-Five myths the course breaks down, each is a "people think X is enough":
+*(Slide capture note: the modern Facebook UI screenshot for this part did not save to disk before the recording tool moved on, so it is described in text only below. Re-send it if you want it embedded.)*
+
+**Continuing straight on: modern Facebook.** The slide showed today's Facebook homepage: a top bar with icon-only navigation (Home, Watch, Marketplace, Groups, Gaming), Messenger/Notifications/Profile icons on the top right, a left sidebar (Home, Create, your profile, groups like "Red Table Talk Group", Events, Saved, Pages, Friends, Settings and Privacy, See More), a center feed with a Stories row at the top, the "What's on your mind" composer with Photo/Video, Tag Friends, Feeling/Activity options, and a right sidebar for Sponsored posts, Birthdays, and Contacts. Compared with the 2005 and 2007 screenshots from Part 03, this is the same core idea (profile, feed, publisher, friends) but every part has been through several more redesign passes since.
+
+**The part I found most important here: today's Facebook is missing a lot of features it used to have, on purpose.** Old things got cut, not because nobody used them, but because most people did not, or because they hurt the experience for the majority. Instead of removing them for everyone outright, Facebook does staged testing: some users get switched to a simplified "Basic" version, some users keep a feature others do not have at all, and the company watches what happens before deciding for good.
+
+**This is Facebook literally doing MVP and A/B testing at their own giant scale**, the same methods from the course's Section 18 (MVP) and Section 19 (Agile and A/B) sections, just applied continuously instead of once:
+
+- Ship a change to a slice of users only, not everyone at once.
+- Watch real behavior: does engagement go up or down, do people complain, do they adapt.
+- Keep it, tune it, or roll it back based on that real data, not on opinion.
+- Only after it proves out do they roll it out wider, sometimes permanently, sometimes it quietly disappears again.
+
+(My addition: this is the same logic as the "switch to basic" and "keep some users on old feature sets" behavior you'll notice on many big platforms, staged rollouts, feature flags, percentage-based experiments. It is the practical proof that "redesign" is never a single big-bang event for a mature product, it is a constant stream of small, tested MVPs. A platform the size of Facebook cannot afford to guess at global scale, so every real change is first tried small.)
+
+#### Part 04, Need More Creative Thinking: what COVID forced everyone to redesign
+
+![Before and after crowds, empty public square](slides/s09-covid-before-after.png)
+
+The slide is a before-and-after of a crowded public square, packed with people versus nearly empty, and the instructor uses it as the visual shorthand for what the COVID-19 pandemic did to the world overnight. This part is the sharpest possible proof of the whole redesign myth: sometimes you do not get years to gradually evolve like Facebook did, the world itself changes in weeks and every product has to catch up immediately or become useless.
+
+**Before COVID: physical meetings, physical classes, physical everything.** After COVID: Zoom, and video calls in general, became the default for meetings, classes, weddings, doctor visits, everything that used to require a room. A tool that was a niche business product suddenly had to serve hundreds of millions of brand new, non-technical users overnight, students, teachers, grandparents, everyone.
+
+**What we should learn from this, tying back to the whole Section 9 theme:** a redesign is not always a slow, planned choice. Sometimes the world changes the user's context violently and fast, and the product's job is to catch up to that new context immediately, or lose the users entirely to whoever adapts faster.
+
+**What actually happened to Zoom, checked against real sources rather than just memory, since you asked me to always verify:**
+
+- Zoom's daily meeting participants went from about 10 million in December 2019 to roughly 300 million by April 2020, an almost unimaginable, sudden scale jump.
+- That sudden scale exposed real problems fast, exactly the "negative feedback matters too" point: **"Zoombombing"**, uninvited strangers joining meetings and posting hate speech, pornographic images, or threats, because meetings were too easy to guess into. **Real user privacy leaks**, Zoom's iOS app was found sending user data to Facebook, even for users without a Facebook account, without disclosing this properly in its privacy policy. And **overstated encryption claims**, Zoom marketed "end-to-end encryption" that was not actually end-to-end at the time. (Source: [Tom's Guide, "Zoom security issues: what's gone wrong and what's been fixed"](https://www.tomsguide.com/news/zoom-security-privacy-woes); this data-sharing issue also drew a class-action lawsuit, [SFist coverage](https://sfist.com/2020/04/01/zoom-video-conferencing-hit-with-privacy-scandal/))
+- **Zoom's response is the redesign lesson:** they froze all new feature development for 90 days and put every engineer on fixing privacy and security instead. Concrete changes that shipped from that freeze: passwords required on meetings by default, the Waiting Room feature so a host approves who enters, host controls to mute participants or lock screen sharing, a "Report a User" button, and eventually a real, optional end-to-end encryption mode. (Source: [Reco, "Zoom Privacy Issues"](https://www.reco.ai/hub/zoom-privacy-issues); [PMC, "Why Zoom Is Not Doomed Yet: Privacy and Security Crisis Response in the COVID-19 Pandemic"](https://pmc.ncbi.nlm.nih.gov/articles/PMC9974380/)) An $85 million class-action settlement followed the Facebook data-sharing and Zoombombing issues.
+
+**The point you raised is exactly right and worth keeping as its own rule: both negative and positive feedback matter, and negative feedback especially cannot be ignored just because growth looks good.** Zoom's user count exploding was the positive signal, but "users are saying their info is leaking through this app" was the negative signal that actually forced the real redesign. A team that only watches growth numbers and ignores complaints like that would have kept the leak open while celebrating the download chart. Listening to what users say is going wrong, not just counting how many are using it, is what turns a crisis into a fixed product instead of a dead one.
 
 1. **"Need to focus"**: focus alone is not enough.
 2. **"Need more research and thinking"**: research alone is not enough either.
