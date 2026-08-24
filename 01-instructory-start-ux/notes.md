@@ -524,7 +524,9 @@ The pattern behind all five: no single ingredient makes good UX. It is the combi
 
 ### UX principles (Section 10)
 
-The core checklist of the course. Eight principles:
+![Section title, UX Principles](slides/s10-title-ux-principles.png)
+
+The core checklist of the course, eight principles. Quick summary first, then the detailed notes on Parts 01 and 02 below.
 
 1. **Know your user**: user need, user research. Everything else builds on this.
 2. **Useful, credible, authentic information**: content must be true and trustworthy, trust is a UX feature.
@@ -536,6 +538,28 @@ The core checklist of the course. Eight principles:
 8. **Confirmation**: for destructive or important actions, confirm. Users make mistakes, good UX makes mistakes cheap.
 
 These eight are the part I expect to reuse weekly in frontend work. Hierarchy, consistency, familiarity, and confirmation are directly implementable in code without any designer involved.
+
+#### Part 01: Know Your User
+
+![User Need / User Research / Know Your User](slides/s10-know-your-user.png)
+
+The slide's own points: as a UI/UX designer you need to know who your target audience is, what their services or needs are, what they are looking for, what their goal is. Identifying your audience early in the design process helps you come up with better designs and gives you a good starting point. Do your requirement analysis about the product you are going to design, research the product better to build a better product.
+
+The instructor grounds this in something very concrete and practical: **Fiverr.** On Fiverr, a seller creates a gig, and before writing a single word of that gig, the first real decision is: who is the target buyer, who is the audience for this exact service? That single question shapes everything downstream, the gig title, the language used, the price, the portfolio samples shown, the FAQ answers.
+
+His own example, in the same spirit as the "know your user" principle: **who will actually buy my product, is it 30 to 40 year olds?** That is not a guess, it is the output of research, looking at who is actually searching for and paying for the service, not who you imagine your customer to be. This connects straight back to Section 4's UX Researcher role and Section 7's target-audience-and-stage discussion, you cannot design well for an audience you have not actually identified through research first, an assumed audience is not the same as a researched one.
+
+(My addition: this is exactly what a Fiverr or Upwork gig description is doing structurally, it is a miniature persona document. "For small business owners who need a logo" is a target-audience statement disguised as marketing copy. Getting that line right before writing anything else is Section 15's User Persona method, applied at freelancer scale.)
+
+#### Part 02: Information Needs to be Useful, Credible and Authentic
+
+![Information Need to be Useful, Credible & Authentic](slides/s10-useful-credible-authentic.png)
+
+Four points straight from the slide: the content should be original and useful so it can fulfill the user's need. The website or app's contents need to be genuinely helpful for the user, so that they come back and visit more than once. Users should believe what you tell them or show them through your product or service. And the content must be authentic, based on your own concept or a true story, not copied or invented.
+
+The instructor's practical extension of this into client work, which I think is the most useful part: **build the actual website design to fit the specific client, not a generic template**, even when the budget is small. A low budget does not excuse generic, copy-pasted design, it means working harder to make the design match that particular client's taste, business, and audience within the budget available. Authenticity is not a luxury feature reserved for big-budget clients, a small business with a real story and a design that reflects its actual taste will out-trust a bigger competitor running a stock template.
+
+(My addition, connecting this to the earlier sections: this is the same idea as the "do not directly copy-paste what others did" rule from the UX Designer role in Section 4, and it is the flip side of Section 3's "see hundreds of designs" advice, study broadly to build taste, but the actual output still has to be authentically built for this specific user and this specific client, never a reskin of someone else's design. Credibility, in UX terms, is largely just consistency between what a business claims to be and what its design actually looks and feels like.)
 
 ### Who can learn UI/UX, prerequisites, next courses (Sections 11 to 13)
 
