@@ -371,6 +371,94 @@ The underlying principle across every one of these: an error message's job is to
 
 ### UX myths (Section 9)
 
+#### Part 01, Need to Focus: what a website actually needs to attract someone
+
+![People read on the web](slides/s09-people-read-on-web.png)
+
+The myth is that pure focus and effort alone are enough, and this part shows what that actually has to translate into on a real page. Starting point: **people read on the web**, so a page cannot be images alone. It needs real, readable content that gives the visitor a reason to like and trust what they are looking at, something to actually read and connect with, not just look at.
+
+![All pages should be accessible in 3 clicks](slides/s09-three-clicks.png)
+
+Then the concrete structural rule: **every page on the site should be reachable within 3 clicks.** The instructor's example is an online clothing shop:
+
+1. **Click 1:** the top-level category. Men, Women, Child, Old (older/senior). This is the first split a visitor makes.
+2. **Click 2:** the sub-category inside that group. Under Men, things like bracelet, shoe, watch, and so on.
+3. **Click 3:** click a sub-category like Watch, and land on every watch-related product, all of them accessible from here.
+
+From there, one more click into an individual product opens its full details page, everything about that product, and from that page the actual buy or add-to-cart action is available. The whole path (category to sub-category to product list to product details to buy) has to stay shallow, the visitor should never be hunting more than 3 clicks deep to find what they came for.
+
+(My addition: this is the classic "3-click rule" in web usability, and while researchers later showed users will click more than 3 times if each click clearly moves them closer to their goal, the spirit of the rule still holds, every extra click needs to feel like progress, not a maze. What actually matters is that each click is obviously the right one, not the raw click count. Source: nngroup.com/articles/3-click-rule/)
+
+Tying this back to the myth: focus alone does not make a good site. You need real content people will read (trust and connection) plus a shallow, logical navigation structure (findability). Effort without that structure just produces a focused, well-built maze.
+
+#### Part 02, Need More Research and Thinking: why you must redesign periodically
+
+The myth here is that once research and thinking produced a good design, the job is done forever. It is not, because the user in front of the design keeps changing, even if the product does not.
+
+![Kids then vs kids now](slides/s09-kids-then-now.png)
+
+The comic makes it personal: **1996, kids then**, the mother points her son outside to go play football, ball in hand, real field. **2016, kids now**, the same scene, but the son is pulling toward the TV or a screen indoors, the mother is the one pointing him outward and he resists. My own memory matches this exactly: I used to play football outside as a kid, now play happens at home, on a phone. And by 2020, then 2026, the gap is even wider again, each few years shifts the baseline further.
+
+This has a direct product consequence: **cricket bat and ball sales go down**, not because the game died, but because kids are not attracted to going out and playing in the field anymore, they are on mobile. If you sell sporting goods, your users' actual behavior moved even though your product did not. A shop or a website built around "kids play outside" assumptions from 2016 is now designed for a user who barely exists anymore.
+
+So when the audience's habits shift like this, **a full redesign is needed**, not a patch. Color combination, font family, layout, all of it, because the old choices were tuned to an old kind of attention and an old kind of user, and none of that carries over automatically.
+
+![Google homepage then vs now](slides/s09-google-then-now.png)
+
+Google itself is the proof at platform scale. When Google first became the leading search engine, its homepage was dense: a full top navigation bar, a services strip, extra links and text crowded around the search box. Step by step, across the years, Google stripped it down to what it is now: a logo, one search box, almost nothing else. The whole industry's sense of "how much can we ask a user to look at" changed, from Internet Explorer-era pages packed with menus and banners to today's expectation of a clean, single-purpose screen. Google's redesigns were not decoration, they tracked how users' patience and screen habits evolved.
+
+![Instagram logo then vs now](slides/s09-instagram-logo-then-now.png)
+
+Even a logo is not exempt. Instagram's old app icon (2010 to 2016) was a literal retro camera illustration, brown, detailed, skeuomorphic. It matched the design taste of its era. The current icon is a flat gradient outline of a camera, simple enough to read at a tiny size on a modern high-density phone screen, and matching the flat, bold visual language every other major app moved to. Same brand, same purpose, completely different visual language, because the devices, screen sizes, and the surrounding design taste of the whole industry had moved on.
+
+(My addition, tying all three examples together: this is the underlying reason UX and UI are never "finished". Users age, habits shift, competing products reset expectations, and screens themselves change (bigger phones, higher density, dark mode). A design that was excellent research five years ago can be actively wrong today, not because it got worse, but because the user in front of it changed. Periodic redesign is not chasing trends for their own sake, it is re-doing the research and thinking part of UX on a schedule, because "know your user" is a snapshot that expires.)
+
+**Client work note:** this applies directly when working for a client too. Part of the job is proactively suggesting a redesign, even a small one, when it will genuinely make the client's users happier, colors, layout, freshness, not waiting for them to ask. A client is happy when their product still feels current to their own users.
+
+![Emoji icons, before and after, Android/web vs iOS](slides/s09-emoji-icons-before-after.png)
+
+One more layer of the same idea, at the smallest possible scale: emoji icons themselves get redesigned. The slide compares Android and web emoji against iOS emoji, before and after a redesign pass, same four emoji (kiss face, water splash, pile of poop, screaming cat face) redrawn to look more realistic, more detailed shading, more expressive faces, smoother shapes. Even something as tiny as an emoji is not fixed forever, platforms keep refining them to look better and communicate more clearly as rendering technology and screen quality improve.
+
+Why does this keep happening at every scale, from a whole homepage down to a single emoji? A few reasons together:
+
+- **Realism and technical capability grow.** Higher resolution screens and better rendering let designers add detail that would have looked broken on older, lower-quality displays.
+- **Smoothness and clarity improve.** Redesigns usually simplify shapes even while adding polish, easier to read at a glance, especially at small sizes, which matters more as icons appear across more device sizes.
+- **The whole platform's visual language shifts**, and everything on it gets pulled along so it still feels like one consistent product (this connects back to the UX principle of Coordination and Consistency in Section 10).
+
+**But there is a real cost the instructor is honest about: users get bored of change, and some genuinely resist it.** People get used to how something looks and works, and change breaks that comfort even when the change is objectively better. You will hear people say "the old one was better" purely out of habit, not because the redesign failed. Facebook is the textbook example: every time Facebook changes its look, a wave of people complain, some go as far as writing angry, insulting posts about the update, cursing the new layout in their own status. Yet Facebook keeps redesigning anyway, because the alternative, freezing the product in an old visual language forever, loses far more users over time than a redesign backlash costs in the short term.
+
+So the UX myth hiding inside "need more research and thinking" is really this: research and thinking are not a one-time investment that lasts forever, they have to include planning for resistance to change itself, how do you introduce a redesign so people adopt it instead of just complaining about it. The instructor says this exact question, how users come to accept a redesign despite that resistance, is covered in the next lesson, so I will pick this up there.
+
+#### Part 03, Need More Concentration: the Facebook redesign story
+
+This part continues straight from Part 02's Facebook example, and walks through how Facebook itself evolved, as real proof of everything just discussed.
+
+![thefacebook, 2005 profile page](slides/s09-facebook-2005-profile.png)
+
+**2005, "[thefacebook]".** Look at this screenshot properly: a dense two-column profile page, a top bar with plain text links (home, search, global, invite, faq, logout), a sidebar list of "My Profile / My Groups / My Friends / My Messages / My Away Message / My Mobile Info", and a huge information block with fields like Screenname, Looking For (Friendship, Dating, A Relationship, Random play), Interested In, Political Views. This was built for a small, closed audience, college students on a specific campus network, who wanted a dense personal profile page, closer to a dating-site bio than a feed. Notice there is no feed at all here, you land straight on a profile.
+
+![Facebook, 2007-era News Feed](slides/s09-facebook-2007-newsfeed.png)
+
+**A couple of years later, the News Feed arrives**, and this is the actual redesign moment the instructor is walking through. The new layout is explained in three labeled parts right on the slide:
+
+- **Filters**, left side: friend lists, applications, ways to control whose posts you see.
+- **Stream**, center: all your friends' posts in real time, the thing we now just call "the feed".
+- **Publisher**, top of the stream: the "What's on your mind?" box to post a status, photo, video, or link, the direct ancestor of every "create post" box on every platform today.
+
+**When News Feed launched, a lot of users took it very lightly at first**, then reacted strongly once they understood what it actually meant: every action was now visible to your whole friend list automatically, not just to someone who chose to visit your profile. People suddenly felt watched. This was Facebook's first big redesign backlash, protest groups against News Feed exploded within days of launch. But the feed is exactly the format Facebook (and every social platform after it) kept building on, because it solved a real problem: nobody wants to manually visit 200 friends' profiles one by one to see what happened, a single scrollable stream does that job for you.
+
+**What changed concretely, moving from profile-only to feed-based, and onward from there:**
+
+- From a static profile as the destination, to a scrollable feed as the home you land on every time.
+- Photos and video went from a separate "Picture, edit" box to first-class post types directly inside the Publisher and the Stream.
+- Plain text navigation links became icon-based navigation (this connects straight back to the icon realism example from Part 02, plain text menu items eventually became recognizable icons for News Feed, Friends, Groups, Video).
+- **Tooltips appeared.** As the interface added more icons and less text, tooltips (the small hover/tap hint that names an icon) became necessary so users could still tell what an unlabeled icon does, this is a direct consequence of moving from text-heavy 2005 to icon-heavy modern design, you gain visual cleanliness but you owe the user a hint back.
+- The look kept getting smoother overall: better typography, more whitespace, softer visual weight, matching Part 02's Instagram-logo point about the whole industry's design taste moving together.
+
+**And when someone leaves the News Feed for another part of the site and comes back, or leaves the site and returns after a break, they now expect the feed to have moved on without them,** new posts waiting, exactly like scrolling back into a live stream. That expectation itself, "the feed keeps going while I'm away", did not exist in the 2005 static-profile world, it is a behavior News Feed itself trained into users.
+
+**Closing thread for this whole myth (Section 9), and how it hands off to the next lesson:** the instructor says we will see more real-life examples of this UX myth, and more importantly, look at how much a redesign attracts users and how they come to accept it, in the next lesson. So the open question carried forward is exactly the one from Part 02: research and thinking are not finished once, they also have to include how you roll out change so people adopt it instead of resisting it, which is Part 04, coming next.
+
 Five myths the course breaks down, each is a "people think X is enough":
 
 1. **"Need to focus"**: focus alone is not enough.
