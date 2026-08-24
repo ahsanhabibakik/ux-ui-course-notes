@@ -498,6 +498,28 @@ The slide is a before-and-after of a crowded public square, packed with people v
 4. **"Need more creative thinking"**: creativity without user grounding is decoration.
 5. **"Need to design based on user demand"**: even this is a myth when taken alone, because users cannot always articulate what they need (the classic faster-horses problem).
 
+#### Part 05, Need to Design Based on User Demand
+
+**Why the homepage is your most important page.**
+
+![The Homepage is Your Most Important Page](slides/s09-homepage-important.png)
+
+The slide shows a fanned-out set of website pages, InnoVision's homepage on top with a rocket launching, headline "Innovate Your Marketing, Innovate Your Thinking", a clean "What We Do" service grid below it, and behind it two more content-style pages with blog-post cards and "Most Viewed Articles". The homepage sits physically on top in the image because that is exactly its job on a real site: it is the page almost everyone lands on first, whether they arrive from a search result, an ad, or just typing the domain. If the homepage does not immediately look trustworthy and make it obvious what the business does and where to go next, the visitor never even reaches the good content sitting behind it, the blog posts, the service pages, the case studies, none of it matters if the front door fails. That is why so much design effort concentrates there specifically, it is the page carrying the most first-impression weight of the entire site.
+
+**Aesthetics are not important if you have good usability.**
+
+![Sign in form, clean usability example](slides/s09-usability-signin.png)
+
+The next two slides deliberately use plain, undecorated screens to make the point stronger, no gradients, no flashy graphics, on purpose. First example, a sign-in form: Email Address field, Password field with a "Remember Me" checkbox and "Forgot Your Password?" link, one clear blue Sign In button, then social sign-in options (Facebook, Twitter, LinkedIn, Instagram), and a "Don't have an account? Sign Up" line at the bottom. Nothing about this screen is visually exciting. But usability-wise it does everything right: every field is clearly labeled, the primary action (Sign In) is the single most visually dominant element on the page, secondary paths (forgot password, sign up, social login) are present but do not compete with the primary action, and the layout follows the exact order a user's brain expects, email, then password, then submit.
+
+![Car market prices, structured data table](slides/s09-usability-carprices.png)
+
+Second example, a car-pricing lookup tool (AutoRed): a specific car, "Nissan March 1.6, Sport MT 2017, 40,000 kms" is shown with its Mean, Minimum, and Maximum market price plus a count of similar records, and below that a full sortable table of comparable listings with date, model, year, kilometers, color, transmission, and price. Again, visually plain, dark and functional rather than beautiful, but it does the actual job perfectly: it answers the exact question a used-car buyer or seller has ("what is this car actually worth right now, based on real comparable data") clearly and completely, with filters to narrow the records further.
+
+Both examples make the same case: a design does not have to be beautiful to be good UX. If a user can complete their task quickly, correctly, and without confusion, form fields make sense, data is organized, the next step is obvious, that usability alone earns trust and satisfaction, even with zero visual polish. This is not an argument against making things beautiful (Section 3 already established that UI and aesthetics matter and attract the right users), it is a corrective against believing beauty alone can substitute for a working, usable structure. **The myth being corrected here is subtle: it is not that user demand does not matter, it is that "user demand" quietly gets translated by designers into "what looks impressive to me", when what users actually demand, almost every time, is simply "let me finish what I came here to do, quickly and without friction".**
+
+**How this applies principles from earlier in the course, put together:** the homepage point is Hierarchy and Attraction (Sections 5 and 10) at the scale of the whole site, put your best, clearest first impression where the traffic actually lands. The usability examples are Clarity and Simplicity plus Familiarity (Section 10): a labeled input field and a blue "Sign In" button need no explanation because every user has seen that exact pattern hundreds of times before, familiarity itself is what makes the plain design feel effortless rather than boring. Good UX design is not choosing beauty or usability, it is knowing which one a specific page actually needs more of, and never skipping the usability half just because the aesthetics half is more fun to work on.
+
 The pattern behind all five: no single ingredient makes good UX. It is the combination of research, focus, creativity, and user input, checked against real behavior through testing.
 
 ### UX principles (Section 10)
