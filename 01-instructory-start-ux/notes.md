@@ -320,7 +320,7 @@ Best section of the theory block. The instructor built Instructory (the platform
 
 1. **Brainstorming, business proposal, pitch deck**: UX work starts before any screen exists, at the level of what the business is.
 2. **Problem and solution**: Bangladesh-context problem, students and professionals need income and skills, instructors need a platform to teach and earn. The solution is the marketplace connecting them.
-3. **Context and overview of the case**: who the players are, what already exists locally.
+3. **Context and overview of the case**: who the players are, what already exists locally, plus the company's real numbers: founded December 27, 2017, founder and CEO Rifat M Huq, headquarters Dhaka, area served Bangladesh, 15 employees, servers on Amazon and Vimeo, operations launched May 27, 2019, and by October 2020: 14,000+ total users, 10,000+ learners, 114 instructors, 20,000+ enrollments. (Slide: [s07-instructory-company-facts.png](slides/s07-instructory-company-facts.png)) One small language note the instructor mentions here: Instructory started writing everything in English, content and social media both, then switched to writing in Bangla, because Bangla connects with more of the actual user base. Speak the language your users think in, not the language that looks more professional. He mostly walks through the Instructory case study itself in this part, so I am keeping notes short here and pointing forward to the fuller breakdown in Part 02 above. One line worth keeping on its own: a company still at the idea stage, with no working product yet, targeting the whole world as its audience, is a problem. Target audience has to match the stage you are actually at, a global target with zero traction is not ambition, it is unfocus.
 4. **Features and competitor analysis**: compare against Udemy-style global platforms, find the local gap (payment methods, language, pricing).
 5. **Market size and target audience**: size the market before building. Target audience definition feeds directly into personas later.
 6. **Business model**: how the platform earns (revenue share on courses). UX must support the model, checkout and instructor payout flows are UX problems.
@@ -331,12 +331,43 @@ Takeaway for AI Buddy work: this maps almost one-to-one to how we should present
 
 ### UX errors (Section 8)
 
-Common mistakes designers make. The ones I noted:
+![UX Error, section title](slides/s08-title-ux-error.png)
 
-- Designing for yourself or the client's taste instead of the user.
-- Skipping research because "we already know what users want".
-- Cluttering the interface, trying to show everything at once.
-- Inconsistent patterns between pages, the same action looking different in different places.
+This section is really about one specific, very common error: **error messages that do not tell the user the actual error.** The instructor's core rule: never show a vague, generic error. Show the exact, real reason, so the user knows what happened and what to do next.
+
+#### Confusing vs clear error messages
+
+![Confusing 404 vs clear no-internet message](slides/s08-error-404-vs-clear.png)
+
+Two error cards side by side, same situation, opposite quality:
+
+- **Confusing:** "Error 404, Operation could be completed (WD GeneralErrorNetwork404)". A sad-face icon, a Retry button, and a message that is really an internal error code dressed up as a sentence. The user has no idea what actually failed or what to do differently before clicking Retry again.
+- **Clear:** "No Internet! Poor network connection detected. Please check your connectivity." Plain language, names the real cause, and tells the user exactly what to go check. Retry now makes sense as the next step, because the user knows what they are retrying after fixing.
+
+**404 specifically is a UX trap.** A raw "404" or a generic system code is a message written for a developer reading logs, not for a user staring at a screen. If a page is missing, say "This page doesn't exist" or "This page has moved". If it's a network problem, say "No internet" or "Server not responding, try again in a moment". Match the message to the real, specific cause every time, never the generic catch-all.
+
+#### Login failed, said two different ways
+
+![Login failed, vague vs specific](slides/s08-login-failed-example.png)
+
+Same idea, sharpened on a login form:
+
+- **Good, green check:** "Login Failed. Your username and/or password do not match." The reason is clear, the user immediately knows what to try next, re-check the username and password. One try usually fixes it.
+- **Bad, red X:** "Login Failed. You cannot login to the application." This tells the user nothing. Is the password wrong? Is the account locked? Is the server down? The user is left to guess and hit-and-trial their way to a fix, or give up.
+
+The instructor's rule stated directly on the slide: the reason for failure must be clear so the user can act correctly, not left guessing.
+
+#### The general pattern, beyond just these two examples
+
+Taking the login and 404 cases and generalizing them to every kind of error a product can throw:
+
+- **Validation errors** (wrong format, empty required field): say exactly which field and why. "Email must include an @" beats "Invalid input".
+- **Permission errors**: say what the user lacks. "You need admin access to do this" beats "Action not allowed".
+- **Payment errors**: say what actually happened. "Card declined by your bank" beats "Transaction failed".
+- **Server/system errors**: say it is on the product's side, not the user's, and what to do meanwhile. "Something went wrong on our end, we're on it, try again shortly" beats a stack trace or a blank white screen.
+- **Timeout/network errors**: name the network, like the "No Internet" example above, instead of a generic failure code.
+
+The underlying principle across every one of these: an error message's job is to turn a stuck user back into a moving user. A vague message leaves them stuck and guessing, a specific message gives them the one next action to take. This is the same idea as Don Norman's feedback principle from Section 6, the interface must tell the user clearly what happened, every single time, especially when something goes wrong.
 
 ### UX myths (Section 9)
 
