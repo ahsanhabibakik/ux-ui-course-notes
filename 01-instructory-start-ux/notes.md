@@ -598,6 +598,65 @@ The stacked-cubes diagram is the clearest possible illustration of information-b
 
 (My addition, tying it directly to my own frontend work: hierarchy is the one UX principle that is almost purely a structural, code-level decision, not a visual-taste decision, it is your sitemap, your component nesting, your heading levels (h1, h2, h3) in the actual HTML. A developer can implement correct information hierarchy even without a designer's visual polish, which is exactly why this principle, alongside Familiarity and Confirmation, is on my "reuse every week" list from the summary at the top of this section.)
 
+#### Hierarchy in a real click-through: Finzept and a cleaning-service site
+
+![Hierarchy example, Finzept case study and a cleaning-service homepage](slides/s10-hierarchy-finzept-cleaning-example.png)
+
+Two real client-style sites side by side make the two types of hierarchy concrete.
+
+**Left, Finzept (a finance product):** the top nav is flat and short, Home, Features, Prices, Blog, Contact, plus a Login and a Free Trial button, that row is the whole information hierarchy of the site in one glance, a visitor instantly knows the handful of places they can go. Click "Blog" or a case study card ("Reunification Case Study", with a "Continue Reading" button) and you land one level deeper, the specific article, exactly the click-1-to-click-2 pattern from Section 9's 3-click rule. The bottom footer repeats the structure in text form (Finzept links, Calculation Tools links), a second, quieter copy of the same information hierarchy for anyone scanning downward instead of using the top nav.
+
+**Right, a cleaning-service homepage:** "List of Services" shows three clear service categories (Full Residential Cleanings, Commercial/Office Cleanings, Move In/Out Cleanings) each with its own icon, short description, and its own "Learn More" button, click one and you go straight to that specific service's page, again one level of hierarchy down from the homepage. Then, exactly where research says it should be, **Testimonials sit below the services, close to the bottom of the page**, "What Our Customers Say", a customer photo, name, star rating, and quote, right above the final "Schedule Your Cleaning" call-to-action button.
+
+**Why testimonials belong near the bottom, not the top, checked against real sources rather than assumption:** the customer journey logic is, show what the service actually is and does first, then once a visitor understands the offer, testimonials work as social proof that removes their remaining doubt right before they are asked to commit (the "Schedule Your Cleaning" button sitting directly beneath the testimonial here is exactly that sequence). Putting trust-building proof right before the final action, rather than before the visitor even knows what is being sold, is why this placement converts better in practice. (Source: [UX Planet, "15 testimonial examples and best practices for your website"](https://uxplanet.org/15-testimonial-examples-and-best-practices-for-your-website-9f5dd3efab5a); [Webstacks, "Testimonial Page Design: Best Practices for B2B"](https://www.webstacks.com/blog/testimonial-page))
+
+**Information based vs visual based hierarchy, made concrete with these two sites:**
+
+- **Information based** = the actual structure and click-path: Homepage to Services to a specific service; Homepage to Blog to a specific case study. This is the sitemap, the "what leads to what", independent of how anything looks.
+- **Visual based** = how obviously the page shows you that structure without reading every word: the services being laid out as three equal, icon-led cards makes it visually obvious there are three parallel choices, and testimonials being visually distinct (a rounded card, a portrait photo, stars) makes them read instantly as "proof", not as another service.
+
+(My addition, sourced: this maps directly onto the standard UX distinction between information architecture and visual hierarchy, IA is the organization of content so it can be found, visual hierarchy is the use of size, color, and placement to show what matters most on a given screen. Ideally the two agree with each other, the visually biggest thing on a page should also be the informationally most important thing for that page. Source: [Lyssna, "Information Architecture UX"](https://www.lyssna.com/blog/information-architecture-in-ux/))
+
+### Ignore Complex Design / Clarity and Simplicity (Section 10, continued)
+
+![Ignore Complex Design / Clarity & Simplicity](slides/s10-ignore-complex-design.png)
+
+The slide's own points: too much content can invoke stress, anxiety, or boredom for users. Users want to find things quickly and with ease, they do not want to feel overwhelmed or overloaded by reading through pages and pages of text. Keep content clean, organized, easy to read, and concise. Keep content to a minimum, use graphical elements, images, and bullet points to help break up text and summarize. Design should be very simple, smooth, and (the slide's own last bullet is cut off in this capture, but the pattern is clear from what precedes it).
+
+The example on the slide itself is the M-Brane music-brand landing page, one clean headline ("Music Is Like a Dream"), one supporting sentence, one clear "Discover More" button, and one striking illustration, nothing competing for attention. That restraint is exactly the principle being taught: say the one thing that matters, and let it be seen clearly.
+
+#### Bad design examples, described in detail
+
+![Bad design examples, three sites](slides/s10-bad-design-examples.png)
+
+Three real (or realistically simulated) sites shown together as anti-patterns of everything Clarity and Simplicity asks for. Going through what is actually visible wrong in each, matching your points:
+
+- **Left site:** opens on a nature photo background, then a row of red pill-shaped buttons sits directly over or against it, colors clash rather than complement (red against a busy green/brown photo has poor contrast and no clear reason for that specific color choice). Below that, a two-column info widget in generic blue tones, then a grid of small department photos, then a tiny embedded map, then a dark footer with small red text that is hard to read against the dark background. No single element is clearly the most important one, the eye has nowhere obvious to land first, which is the opposite of the Hierarchy principle from Part 04 above.
+- **Middle site:** a teal header band with a stock photo of two people, sitting above a stark black countdown timer widget, then a three-column call-to-action block in pink, yellow, and light blue side by side, three unrelated colors fighting for attention at once, then another photo grid, then a dark footer packed with badges and logos. This is the "too much content, too many competing colors" failure named directly on the Clarity slide, nothing is minimized, nothing is quiet enough to let anything else stand out.
+- **Right site, North South University:** more structurally organized than the other two (a real navy header, a real nav bar, real content sections), but still genuinely weak by the same standards you flagged. The navy-and-yellow color scheme is used inconsistently (yellow buttons, yellow highlighted text, and small blue links all competing in the same view), a lot of small, dense text and numbers packed into the hero area (countdown-style stat, ranking claim, multiple contact lines) with low visual breathing room, and a cluttered footer of certification badges and social icons at the very bottom that adds visual noise without adding real value to a first-time visitor. Even a "properly built" institutional site can fail Clarity and Simplicity simply by trying to fit too many messages into one screen.
+
+The pattern across all three, matching exactly what the slide warns about: **when a design tries to show everything with equal loudness, colors that clash, low-contrast or shadowed text, no dominant focal point, cluttered footers, the user cannot tell what to look at first, and that confusion itself is the UX failure, regardless of how much individual effort went into each piece.**
+
+**Design has to be tailored differently by business type, not applied as one universal template.** A training or education business (like the North South University example) genuinely does need to communicate more information on a page, programs, deadlines, credentials, because prospective students are making a slower, higher-stakes decision and expect to research before acting. An online shop needs the opposite discipline: minimal distraction, a fast path from product to cart to checkout, because a shopper's decision is quicker and every extra element between them and "Buy" is a small tax on conversion. Clarity and Simplicity does not mean "always show less", it means "show exactly what this specific user, for this specific business, needs to move forward, and nothing more than that."
+
+#### Clean, editable client work as the positive counter-example
+
+![GradeSeekers and Finzept, editable template portfolio](slides/s10-gradeseekers-finzept-portfolio.png)
+
+Two pieces of the instructor's own portfolio work shown as what good, simple design looks like in practice: GradeSeekers (a clean dark cover mockup, labeled "Desktop UI Design, Bootstrap Responsive Grid, Easily Editable and Customizable") and Finzept (the same finance product from the hierarchy example above, shown responsively across laptop, desktop, tablet, and phone).
+
+The phrase "Easily Editable and Customizable" is worth understanding properly, since it points at how these designs are actually built, not just how they look: a well-organized design file keeps its layers, components, and color/text styles named and structured cleanly (the same document-asset concept from the Adobe XD block of this course, Sections 28 to 29), so that colors, text, and images can be swapped without rebuilding the layout from scratch. A simple visual result and an editable underlying structure go together, a design that looks clean on the outside is almost always organized cleanly on the inside too, messy layer structures tend to produce messy-looking output, and clean layer structures make it easy to keep a design simple as it gets reused or adapted for a new client.
+
+#### M-Brane: consistency, and why UX makes UI easier
+
+![M-Brane, three consistent client pages](slides/s10-mbrane-portfolio.png)
+
+M-Brane again, but now showing three of its actual pages stacked together (the hero page with "We Write Software Projects for Customers", the "Who We Are" team page with three team photos, and the "What We Offer" services page). This is the instructor's own client work, and it demonstrates the Coordination and Consistency principle (Section 10's own #6 in the summary at the top) directly: the same blue-and-orange color palette, the same icon style, the same photo treatment, and the same layout grid repeat across all three pages, so a visitor who learns how one page works already knows how to read the next one.
+
+**The key line to hold onto here: once you understand UX, UI design becomes easy, but without understanding UX, UI design is genuinely hard, and it starts from consistency.** This is not just a motivational line, it is literally true in a mechanical sense: if you know the UX decision ("these three pages must feel like one product, and the visitor's trust should carry forward from page to page"), the UI decision (same colors, same icon set, same grid, same button style, repeated three times) follows almost automatically. Without that underlying UX reasoning, a designer is left making hundreds of small visual choices with no principle to check them against, which is exactly how the three bad-design examples above ended up cluttered, colors and layouts were chosen page by page, moment by moment, with no consistent system holding the whole site together. Consistency is not a separate decorative step done after the "real" design, it is the visible proof that a UX decision was actually made and then followed through.
+
+(My addition, sourced: this matches Nielsen's own "Consistency and Standards" usability heuristic directly, and it distinguishes two kinds worth keeping separate. Internal consistency is what M-Brane demonstrates, the same patterns repeated within one product. External consistency is following the wider conventions users already know from other sites entirely, which is the same territory as the Familiarity principle, Section 10's #7. A design can nail internal consistency, like M-Brane, while still needing to check itself against external, industry-wide conventions too. Source: [NN/g, "Usability Heuristic 4: Consistency and Standards"](https://www.nngroup.com/videos/usability-heuristic-consistency-standards/))
+
 ### Who can learn UI/UX, prerequisites, next courses (Sections 11 to 13)
 
 Anyone can start, no design background required. The course positions itself as course 1 of the instructor's track (next is the UI Design course, which is my course 2). Bonus lessons get added over time.
