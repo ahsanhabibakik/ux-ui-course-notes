@@ -761,7 +761,7 @@ YouTube's "Delete video" dialog: "Permanently delete your video? You can't undo 
 
 **This closes Section 10.** All eight principles, Know Your User, Useful/Credible/Authentic, Easy to Use/Find/Accessible, Hierarchy, Clarity and Simplicity, Coordination and Consistency, Familiarity, and Confirmation, have now been covered in full with real slide examples and real product examples for each.
 
-### Who can learn UI/UX, prerequisites, next courses (Sections 11 to 13)
+### Who can learn UI/UX (Section 11)
 
 ![Section title, Who Can Learn UI/UX?](slides/s11-title-who-can-learn.png)
 
@@ -781,7 +781,42 @@ Anyone can start, no design background required. The slide shows exactly that, o
 
 (My addition, connecting this to everything already in these notes: this daily-practice description is really just Section 3's "see hundreds of designs" advice and Section 10's eight principles turned into a habit loop, look, notice, question against a principle you already know (hierarchy, familiarity, clarity), write it down, then propose the fix. Anyone genuinely can start this today with zero tools, a notebook and the willingness to look at ordinary websites critically instead of passively. The Adobe XD skills later in this course are how you eventually execute the fix, this section is about training the eye that notices what needs fixing in the first place.)
 
-The course positions itself as course 1 of the instructor's track (next is the UI Design course, which is my course 2). Bonus lessons get added over time.
+### Support, Prerequisite, Next Course, iLive, iOffline (Section 12)
+
+![Support, "you need some help" caveman comic](slides/s12-support-caveman-comic.png)
+
+The section opens with a comic: a caveman has invented the wheel and offers it to two other cavemen straining to haul a heavy stone cart, "You need some help?", "no thanks", "we are too busy". The joke is exactly the point the instructor is making about Support, the cavemen are working harder, not smarter, purely because they are too proud or too busy to accept help that is right there for the taking. Struggling alone through a problem someone else has already solved is not discipline, it is wasted effort.
+
+**So what does support actually mean for this course, everything listed together:**
+
+- **A dedicated support channel, a secret group or an Instructory Messenger group**, where students can message directly with questions instead of getting stuck silently the way the cavemen in the comic did.
+- **10 real company case studies included as course material**, worked examples across different real businesses (in the same style as the Instructory case study in Section 7), giving students more than one reference point to study patterns from, exactly the "see many designs" advice from Section 3 turned into ready-made material rather than something a student has to go find alone.
+- **Prerequisite**: none required to start (echoing Section 11 directly, no design background needed).
+- **iLive / iOffline options**: the course is available as live instruction and as offline (self-paced, pre-recorded) study, so a student can pick the format that fits their schedule.
+- **Next Course pointer**, covered fully in its own slide below, the instructor's follow-up course.
+
+**The takeaway I am keeping for myself specifically, since I am one week into a set of course deadlines right now:** use the support channel and the case study material instead of getting stuck the way the cavemen did. If I hit a confusing point in a later course, the "no thanks, we are too busy" instinct is the wrong one, asking is faster than staying stuck.
+
+#### Next course: "The Book of UI/UX, Basic to Pagla"
+
+![Next course, The Book of UI/UX, Basic to Pagla](slides/s12-next-course-basic-to-pagla.png)
+
+The instructor's follow-up course, positioned as the direct next step after this one: "The Book of UI/UX, Basic to Pagla" ("Pagla" meaning roughly "crazy" or "obsessive" in Bangla, so the course title reads as "Basic all the way to obsessive/expert level"), by Rifat M Huq, credited as Top Rated UI/UX Designer, Professional Freelancer on Fiverr, and Fiverr Community Leader in Dhaka, Bangladesh. Assets credited to Freepik, Themeforest, Pexels, and actual client work.
+
+For my own tracking: this is a different course from my committed course 2 (Start Your Journey with UI Design), it is the instructor's own next-level course in his personal track rather than the one I already scheduled. Worth knowing it exists as a later reference once my current 5-course, 30-day commitment is done, not something to add to the current plan.
+
+### Bonus Lessons (Section 13)
+
+The course's final section is explicitly left open-ended, "Bonus Lessons, will be updated continuously". Rather than a fixed lesson list, this is the instructor's promise that the course keeps growing after purchase, new material gets added over time as the field itself moves (the same "you need to redesign periodically" logic from Section 9, applied to the course content itself).
+
+**What this section is really pointing students toward, past the theory covered in Sections 1 to 13: more hands-on practice.** The natural next steps from here, in the order this course itself sets up:
+
+- **Move into the methods and process block (Sections 14 to 23)**, KWHL, personas, site maps, POEMS, MVP, Agile and A/B testing, usability testing, UX laws, the actual tools of doing UX work rather than just understanding it.
+- **Move into the hands-on Adobe XD block (Sections 24 to 30)**, and actually build something, not just watch it get built, the freelancing website project is the place all of this theory gets tested against a real multi-page build.
+- **Keep the notebook habit from Section 11 running continuously**, browsing, noticing, writing down "this would be better if X", so the theory in this section stays connected to real observation instead of fading into just watched-once material.
+- **Use the Section 12 support channel and the 10 case studies** as ongoing reference material while doing all of the above, rather than treating this course as finished the moment the video ends.
+
+This closes out Block 1 (UX Theory) of my notes for this course. Block 2 (Methods and Process) and Block 3 (Adobe XD hands-on) already have their own summaries earlier in this file; more detailed section-by-section notes for those blocks can be added the same way as Sections 1 to 13, following the same course-slides-plus-my-own-review process, if useful going forward.
 
 ---
 
